@@ -4,9 +4,9 @@
   $insert = FALSE;
   if(isset($_POST['name']))
   {
-    $server = 'localhost';
-    $username = 'root';
-    $password = '';
+    $server = 'ec2-3-225-110-188.compute-1.amazonaws.com';
+    $username = 'lyxnocuvqwvjdw';
+    $password = '097e81370eb26c3b835f1af2faee5f0cf70fcf51fef597549bff6c1ff14be843';
     //$db = 'trip';
 
     $con = mysqli_connect($server, $username, $password);
